@@ -82,7 +82,7 @@ jobs:
         id: secrets
         with:
           # TODO: Don't forget to enter the role name you created above!
-          role: ""
+          role: "an-dy_re"
           # Retrieve a secret from the KV v2 secrets engine at the mount point `secret`.
           secrets: |
             secret/data/development access_token | ACCESS_TOKEN ;
