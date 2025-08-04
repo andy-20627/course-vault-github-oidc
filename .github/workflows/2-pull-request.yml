@@ -63,12 +63,12 @@ jobs:
         env:
           VAULT_ADDR: http://127.0.0.1:8200
         run: |
-          vault write auth/gha/role/GIVE_ME_A_NAME - << EOF
+          vault write auth/gha/role/an-dy_re - << EOF
           {
             "role_type": "jwt",
             "user_claim": "actor",
             "bound_claims": {
-
+              "sub": "repo:andy-20627/course-vault-github-oidc:pull_request"
               # Fill in missing "sub" claim
 
             },
