@@ -69,7 +69,7 @@ jobs:
             "user_claim": "actor",
             "bound_claims": {
               "sub": "repo:andy-20627/course-vault-github-oidc:pull_request"
-              # Fill in missing "sub" claim
+            
 
             },
             "policies": ["pr-policy"],
